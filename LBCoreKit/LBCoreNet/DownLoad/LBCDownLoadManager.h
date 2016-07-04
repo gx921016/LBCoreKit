@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
-
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
 @interface LBCDownLoadManager : NSObject
 

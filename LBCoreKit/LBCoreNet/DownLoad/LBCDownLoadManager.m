@@ -76,7 +76,7 @@ static LBCDownLoadManager *downLoadManager=nil;
 
 
 -(CGFloat)getDownLoadProgressWithUrl:(NSString *)url{
-     LBCDownLoad *downloader=[self.taskDic objectForKey:url];
+     LBCDownLoad *downloader=[LBCDownLoad downloader];
    return [downloader progressWithUrl:url];
 }
 

@@ -7,7 +7,6 @@
 //
 
 #import "LBCDownLoad.h"
-#import "NSString+LBCoreKit.h"
 //typedef void (^ProcessHandle)(CGFloat progress,NSString *sizeString,NSString *speedString);
 //typedef void (^CompletionHandle)();
 //typedef void (^FailureHandle)(NSError *error);
@@ -64,6 +63,7 @@ static LBCDownLoad *_myDownload;
 }
 
 - (CGFloat)progressWithUrl:(NSString*)url {
+    self.url_string = url;
     NSUInteger loadedLength = [self getFileDownloadedLength:[url hash]];
     
     NSUInteger allLength = [self getAllLength:[url hash]];
@@ -254,7 +254,9 @@ static LBCDownLoad *_myDownload;
     NSString *fileName = _fileName;//[self createFileName:urlHash];
     NSString *fullPath = [self getCachFileDirectory];
     NSFileManager *fileManager = [NSFileManager defaultManager];
+//    if (![fileManager fileExistsAtPath:fullPath]){
     [fileManager createDirectoryAtPath:fullPath withIntermediateDirectories:YES attributes:nil error:NULL];
+   
     NSString *path = [fullPath stringByAppendingPathComponent:fileName];
     
     return path;
@@ -310,13 +312,29 @@ static LBCDownLoad *_myDownload;
 }
 
 - (NSData *)getFileDownloadedData:(NSInteger)urlHash {
-    NSString *fullPath = [self createCachePath:urlHash];
+    NSString *fullPath = [self getCachFileDirectory];
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if ([fileManager fileExistsAtPath:fullPath]) {
-        NSData *data = [NSData dataWithContentsOfFile:fullPath];
+         NSEnumerator *childFilesEnumerator = [[fileManager subpathsAtPath:fullPath] objectEnumerator];
+        NSString* fileName;
+        NSString* fileAbsolutePath;
+        while ((fileName = [childFilesEnumerator nextObject]) != nil){
+            fileAbsolutePath = [fullPath stringByAppendingPathComponent:fileName];
+//            folderSize += [self fileSizeAtPath:fileAbsolutePath];
+        }
+        NSData *data = [NSData dataWithContentsOfFile:fileAbsolutePath];
         return data;
     }
     return nil;
+}
+
+//单个文件的大小
+- (long long) fileSizeAtPath:(NSString*) filePath{
+    NSFileManager* manager = [NSFileManager defaultManager];
+    if ([manager fileExistsAtPath:filePath]){
+        return [[manager attributesOfItemAtPath:filePath error:nil] fileSize];
+    }
+    return 0;
 }
 
 - (void)setAllLength:(NSUInteger)allLength WithTag:(NSUInteger)urlHash {
