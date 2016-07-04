@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4CCFC81D28AD46001E5C82 /* LBCDownLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFC41D28AD46001E5C82 /* LBCDownLoad.h */; };
+		AA4CCFC91D28AD46001E5C82 /* LBCDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFC51D28AD46001E5C82 /* LBCDownLoad.m */; };
+		AA4CCFCA1D28AD46001E5C82 /* LBCDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFC61D28AD46001E5C82 /* LBCDownLoadManager.h */; };
+		AA4CCFCB1D28AD46001E5C82 /* LBCDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFC71D28AD46001E5C82 /* LBCDownLoadManager.m */; };
+		AA4CCFCF1D28B1AC001E5C82 /* NSString+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFCD1D28B1AC001E5C82 /* NSString+LBCoreKit.h */; };
+		AA4CCFD01D28B1AC001E5C82 /* NSString+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFCE1D28B1AC001E5C82 /* NSString+LBCoreKit.m */; };
+		AA4CCFD61D28B30E001E5C82 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFD31D28B30E001E5C82 /* GTMBase64.h */; };
+		AA4CCFD71D28B30E001E5C82 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFD41D28B30E001E5C82 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA4CCFD81D28B30E001E5C82 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFD51D28B30E001E5C82 /* GTMDefines.h */; };
+		AA4CCFDE1D28B433001E5C82 /* ACMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFDA1D28B433001E5C82 /* ACMacros.h */; };
+		AA4CCFDF1D28B433001E5C82 /* IIDlog.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFDB1D28B433001E5C82 /* IIDlog.h */; };
+		AA4CCFE01D28B433001E5C82 /* ToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFDC1D28B433001E5C82 /* ToolView.h */; };
+		AA4CCFE11D28B433001E5C82 /* UtilsMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFDD1D28B433001E5C82 /* UtilsMacro.h */; };
+		AA4CCFE41D28C2AA001E5C82 /* LBCDownLoadModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFE21D28C2AA001E5C82 /* LBCDownLoadModel.h */; };
+		AA4CCFE51D28C2AA001E5C82 /* LBCDownLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFE31D28C2AA001E5C82 /* LBCDownLoadModel.m */; };
 		CBD8B6371D26463600CB0E9B /* LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD8B6361D26463600CB0E9B /* LBCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBD8B63E1D26463600CB0E9B /* LBCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD8B6331D26463600CB0E9B /* LBCoreKit.framework */; };
 		CBD8B6431D26463600CB0E9B /* LBCoreKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD8B6421D26463600CB0E9B /* LBCoreKitTests.m */; };
@@ -23,6 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA4CCFC41D28AD46001E5C82 /* LBCDownLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCDownLoad.h; sourceTree = "<group>"; };
+		AA4CCFC51D28AD46001E5C82 /* LBCDownLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCDownLoad.m; sourceTree = "<group>"; };
+		AA4CCFC61D28AD46001E5C82 /* LBCDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCDownLoadManager.h; sourceTree = "<group>"; };
+		AA4CCFC71D28AD46001E5C82 /* LBCDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCDownLoadManager.m; sourceTree = "<group>"; };
+		AA4CCFCD1D28B1AC001E5C82 /* NSString+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CCFCE1D28B1AC001E5C82 /* NSString+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CCFD31D28B30E001E5C82 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		AA4CCFD41D28B30E001E5C82 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		AA4CCFD51D28B30E001E5C82 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		AA4CCFDA1D28B433001E5C82 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
+		AA4CCFDB1D28B433001E5C82 /* IIDlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIDlog.h; sourceTree = "<group>"; };
+		AA4CCFDC1D28B433001E5C82 /* ToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolView.h; sourceTree = "<group>"; };
+		AA4CCFDD1D28B433001E5C82 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		AA4CCFE21D28C2AA001E5C82 /* LBCDownLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCDownLoadModel.h; sourceTree = "<group>"; };
+		AA4CCFE31D28C2AA001E5C82 /* LBCDownLoadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCDownLoadModel.m; sourceTree = "<group>"; };
 		CBD8B6331D26463600CB0E9B /* LBCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD8B6361D26463600CB0E9B /* LBCoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBCoreKit.h; sourceTree = "<group>"; };
 		CBD8B6381D26463600CB0E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +80,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA4CCFC31D28AD46001E5C82 /* DownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				AA4CCFC41D28AD46001E5C82 /* LBCDownLoad.h */,
+				AA4CCFC51D28AD46001E5C82 /* LBCDownLoad.m */,
+				AA4CCFC61D28AD46001E5C82 /* LBCDownLoadManager.h */,
+				AA4CCFC71D28AD46001E5C82 /* LBCDownLoadManager.m */,
+				AA4CCFE21D28C2AA001E5C82 /* LBCDownLoadModel.h */,
+				AA4CCFE31D28C2AA001E5C82 /* LBCDownLoadModel.m */,
+			);
+			path = DownLoad;
+			sourceTree = "<group>";
+		};
+		AA4CCFCC1D28B169001E5C82 /* LBCoreFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				AA4CCFCD1D28B1AC001E5C82 /* NSString+LBCoreKit.h */,
+				AA4CCFCE1D28B1AC001E5C82 /* NSString+LBCoreKit.m */,
+			);
+			path = LBCoreFoundation;
+			sourceTree = "<group>";
+		};
+		AA4CCFD11D28B30E001E5C82 /* LBOpenKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA4CCFD21D28B30E001E5C82 /* GTMBase64 */,
+			);
+			path = LBOpenKit;
+			sourceTree = "<group>";
+		};
+		AA4CCFD21D28B30E001E5C82 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				AA4CCFD31D28B30E001E5C82 /* GTMBase64.h */,
+				AA4CCFD41D28B30E001E5C82 /* GTMBase64.m */,
+				AA4CCFD51D28B30E001E5C82 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		AA4CCFD91D28B433001E5C82 /* LBMacro */ = {
+			isa = PBXGroup;
+			children = (
+				AA4CCFDA1D28B433001E5C82 /* ACMacros.h */,
+				AA4CCFDB1D28B433001E5C82 /* IIDlog.h */,
+				AA4CCFDC1D28B433001E5C82 /* ToolView.h */,
+				AA4CCFDD1D28B433001E5C82 /* UtilsMacro.h */,
+			);
+			path = LBMacro;
+			sourceTree = "<group>";
+		};
 		CBD8B6291D26463600CB0E9B = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +152,10 @@
 		CBD8B6351D26463600CB0E9B /* LBCoreKit */ = {
 			isa = PBXGroup;
 			children = (
+				AA4CCFD91D28B433001E5C82 /* LBMacro */,
+				AA4CCFD11D28B30E001E5C82 /* LBOpenKit */,
+				AA4CCFCC1D28B169001E5C82 /* LBCoreFoundation */,
+				CBD8B65D1D2668A200CB0E9B /* LBCoreNet */,
 				CBD8B6361D26463600CB0E9B /* LBCoreKit.h */,
 				CBD8B6381D26463600CB0E9B /* Info.plist */,
 			);
@@ -86,6 +171,14 @@
 			path = LBCoreKitTests;
 			sourceTree = "<group>";
 		};
+		CBD8B65D1D2668A200CB0E9B /* LBCoreNet */ = {
+			isa = PBXGroup;
+			children = (
+				AA4CCFC31D28AD46001E5C82 /* DownLoad */,
+			);
+			path = LBCoreNet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +186,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4CCFCF1D28B1AC001E5C82 /* NSString+LBCoreKit.h in Headers */,
+				AA4CCFE41D28C2AA001E5C82 /* LBCDownLoadModel.h in Headers */,
+				AA4CCFE11D28B433001E5C82 /* UtilsMacro.h in Headers */,
+				AA4CCFDE1D28B433001E5C82 /* ACMacros.h in Headers */,
+				AA4CCFC81D28AD46001E5C82 /* LBCDownLoad.h in Headers */,
+				AA4CCFD61D28B30E001E5C82 /* GTMBase64.h in Headers */,
 				CBD8B6371D26463600CB0E9B /* LBCoreKit.h in Headers */,
+				AA4CCFD81D28B30E001E5C82 /* GTMDefines.h in Headers */,
+				AA4CCFDF1D28B433001E5C82 /* IIDlog.h in Headers */,
+				AA4CCFE01D28B433001E5C82 /* ToolView.h in Headers */,
+				AA4CCFCA1D28AD46001E5C82 /* LBCDownLoadManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4CCFC91D28AD46001E5C82 /* LBCDownLoad.m in Sources */,
+				AA4CCFCB1D28AD46001E5C82 /* LBCDownLoadManager.m in Sources */,
+				AA4CCFD01D28B1AC001E5C82 /* NSString+LBCoreKit.m in Sources */,
+				AA4CCFE51D28C2AA001E5C82 /* LBCDownLoadModel.m in Sources */,
+				AA4CCFD71D28B30E001E5C82 /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +484,7 @@
 				CBD8B6491D26463600CB0E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBD8B64A1D26463600CB0E9B /* Build configuration list for PBXNativeTarget "LBCoreKitTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +493,7 @@
 				CBD8B64C1D26463600CB0E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
