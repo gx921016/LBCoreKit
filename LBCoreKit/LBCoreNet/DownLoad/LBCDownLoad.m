@@ -165,7 +165,6 @@ static LBCDownLoad *_myDownload;
         _failure=failure;
         //判断是否已经下载完成
         if ([self getAllLength:urlString.hash]==[self getFileDownloadedLength:urlString.hash]&&[self getFileDownloadedLength:urlString.hash]>0) {
-            LBCDownLoadModel *lbcModel = [self.downloadDic valueForKey:@(urlString.hash).stringValue];
             if (completion) {
                 completion();
             }
@@ -265,8 +264,8 @@ static LBCDownLoad *_myDownload;
 - (NSUInteger)getAllLength:(NSInteger)urlHash {
     
     NSMutableDictionary *dic = [self getFileAllLengthDic];
-    if ([dic.allKeys containsObject:[NSString stringWithFormat:@"%lud",urlHash]]) {
-        return ((NSNumber *)[dic valueForKey:[NSString stringWithFormat:@"%lud",urlHash]]).unsignedIntegerValue;
+    if ([dic.allKeys containsObject:[NSString stringWithFormat:@"%lu",urlHash]]) {
+        return ((NSNumber *)[dic valueForKey:[NSString stringWithFormat:@"%lu",urlHash]]).unsignedIntegerValue;
     }
     return 0;
 }
@@ -298,7 +297,7 @@ static LBCDownLoad *_myDownload;
 
 - (NSString *)getCachFileDirectory {
     if (self.url_string.hash>0) {
-    return [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:[NSString stringWithFormat:@"LBCDownLoadCache/%lud/",self.url_string.hash]];
+    return [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:[NSString stringWithFormat:@"LBCDownLoadCache/%lu/",self.url_string.hash]];
     }else{
         return [self getCachDirectory];
     }
@@ -341,7 +340,7 @@ static LBCDownLoad *_myDownload;
     [self createFileAllLengthPlist];
     NSString *path = [self getFileAllLengthPath];
     NSMutableDictionary *dic = [self getFileAllLengthDic];
-    [dic setValue:@(allLength) forKey:[NSString stringWithFormat:@"%lud",urlHash]];
+    [dic setValue:@(allLength) forKey:[NSString stringWithFormat:@"%lu",urlHash]];
     [dic writeToFile:path atomically:YES];
 }
 
@@ -366,7 +365,8 @@ static LBCDownLoad *_myDownload;
  */
 -(NSString *)filesSize:(NSString *)url
 {
-    NSInteger totalLength=[self getAllLength:url.hash];
+    LBCDownLoadModel *lbc_Model = [self.downloadDic valueForKey:@(url.hash).stringValue];
+    NSInteger totalLength= lbc_Model.allLength;//[self getAllLength:url.hash];
     if(totalLength==0)
     {
         return @"0.00K/0.00K";
@@ -386,6 +386,7 @@ response completionHandler:(void (^)(NSURLSessionResponseDisposition))completion
     
     LBCDownLoadModel *lbc_Model = [self.downloadDic valueForKey:@(dataTask.taskIdentifier).stringValue];
     NSUInteger allLength = response.expectedContentLength + [self getFileDownloadedLength:dataTask.taskIdentifier];
+    NSLog(@"%lu",allLength);
     [self setAllLength:allLength WithTag:dataTask.taskIdentifier];
     NSString *fullPath = [self createCachePath:dataTask.taskIdentifier];
     // 创建流
@@ -395,6 +396,8 @@ response completionHandler:(void (^)(NSURLSessionResponseDisposition))completion
     [lbc_Model.stream open];
     completionHandler(NSURLSessionResponseAllow);
 }
+
+
 // 接受数据（会多次调用）
 - (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data {
     
@@ -411,10 +414,6 @@ response completionHandler:(void (^)(NSURLSessionResponseDisposition))completion
         }
     }
     
-}
-
-- (void)URLSession:(NSURLSession *)session downloadTask:(NSURLSessionDownloadTask *)downloadTaskdidFinishDownloadingToURL:(NSURL *)location{
-
 }
 
 -(void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didCompleteWithError:(NSError *)error{

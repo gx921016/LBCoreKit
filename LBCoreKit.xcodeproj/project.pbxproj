@@ -22,6 +22,28 @@
 		AA4CCFE11D28B433001E5C82 /* UtilsMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFDD1D28B433001E5C82 /* UtilsMacro.h */; };
 		AA4CCFE41D28C2AA001E5C82 /* LBCDownLoadModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFE21D28C2AA001E5C82 /* LBCDownLoadModel.h */; };
 		AA4CCFE51D28C2AA001E5C82 /* LBCDownLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFE31D28C2AA001E5C82 /* LBCDownLoadModel.m */; };
+		AA4CCFEC1D2D27B4001E5C82 /* NSArray+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFEA1D2D27B4001E5C82 /* NSArray+LBCoreKit.h */; };
+		AA4CCFED1D2D27B4001E5C82 /* NSArray+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFEB1D2D27B4001E5C82 /* NSArray+LBCoreKit.m */; };
+		AA4CCFEF1D2D28D8001E5C82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4CCFEE1D2D28D8001E5C82 /* CoreGraphics.framework */; };
+		AA4CCFF21D2D2932001E5C82 /* NSBundle+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFF01D2D2932001E5C82 /* NSBundle+LBCoreKit.h */; };
+		AA4CCFF31D2D2932001E5C82 /* NSBundle+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFF11D2D2932001E5C82 /* NSBundle+LBCoreKit.m */; };
+		AA4CCFF61D2D298D001E5C82 /* NSData+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFF41D2D298D001E5C82 /* NSData+LBCoreKit.h */; };
+		AA4CCFF71D2D298D001E5C82 /* NSData+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFF51D2D298D001E5C82 /* NSData+LBCoreKit.m */; };
+		AA4CCFF91D2D2A2E001E5C82 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4CCFF81D2D2A2E001E5C82 /* libz.tbd */; };
+		AA4CCFFC1D2D2A4E001E5C82 /* NSDate+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFFA1D2D2A4E001E5C82 /* NSDate+LBCoreKit.h */; };
+		AA4CCFFD1D2D2A4E001E5C82 /* NSDate+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFFB1D2D2A4E001E5C82 /* NSDate+LBCoreKit.m */; };
+		AA4CD0001D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CCFFE1D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.h */; };
+		AA4CD0011D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CCFFF1D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.m */; };
+		AA4CD0041D2D2B70001E5C82 /* NSFileManager+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CD0021D2D2B70001E5C82 /* NSFileManager+LBCoreKit.h */; };
+		AA4CD0051D2D2B70001E5C82 /* NSFileManager+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CD0031D2D2B70001E5C82 /* NSFileManager+LBCoreKit.m */; };
+		AA4CD0081D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CD0061D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.h */; };
+		AA4CD0091D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CD0071D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.m */; };
+		AA4CD00C1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CD00A1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.h */; };
+		AA4CD00D1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CD00B1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.m */; };
+		AA4CD0101D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CD00E1D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.h */; };
+		AA4CD0111D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CD00F1D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.m */; };
+		AA4CD0141D2D2D49001E5C82 /* NSObject+LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CD0121D2D2D49001E5C82 /* NSObject+LBCoreKit.h */; };
+		AA4CD0151D2D2D49001E5C82 /* NSObject+LBCoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CD0131D2D2D49001E5C82 /* NSObject+LBCoreKit.m */; };
 		CBD8B6371D26463600CB0E9B /* LBCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD8B6361D26463600CB0E9B /* LBCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBD8B63E1D26463600CB0E9B /* LBCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD8B6331D26463600CB0E9B /* LBCoreKit.framework */; };
 		CBD8B6431D26463600CB0E9B /* LBCoreKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD8B6421D26463600CB0E9B /* LBCoreKitTests.m */; };
@@ -53,6 +75,28 @@
 		AA4CCFDD1D28B433001E5C82 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		AA4CCFE21D28C2AA001E5C82 /* LBCDownLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCDownLoadModel.h; sourceTree = "<group>"; };
 		AA4CCFE31D28C2AA001E5C82 /* LBCDownLoadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCDownLoadModel.m; sourceTree = "<group>"; };
+		AA4CCFEA1D2D27B4001E5C82 /* NSArray+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CCFEB1D2D27B4001E5C82 /* NSArray+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CCFEE1D2D28D8001E5C82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA4CCFF01D2D2932001E5C82 /* NSBundle+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CCFF11D2D2932001E5C82 /* NSBundle+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CCFF41D2D298D001E5C82 /* NSData+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CCFF51D2D298D001E5C82 /* NSData+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CCFF81D2D2A2E001E5C82 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AA4CCFFA1D2D2A4E001E5C82 /* NSDate+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CCFFB1D2D2A4E001E5C82 /* NSDate+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CCFFE1D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CCFFF1D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CD0021D2D2B70001E5C82 /* NSFileManager+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CD0031D2D2B70001E5C82 /* NSFileManager+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CD0061D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CD0071D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CD00A1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CD00B1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CD00E1D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CD00F1D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+LBCoreKit.m"; sourceTree = "<group>"; };
+		AA4CD0121D2D2D49001E5C82 /* NSObject+LBCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LBCoreKit.h"; sourceTree = "<group>"; };
+		AA4CD0131D2D2D49001E5C82 /* NSObject+LBCoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LBCoreKit.m"; sourceTree = "<group>"; };
 		CBD8B6331D26463600CB0E9B /* LBCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD8B6361D26463600CB0E9B /* LBCoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBCoreKit.h; sourceTree = "<group>"; };
 		CBD8B6381D26463600CB0E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4CCFF91D2D2A2E001E5C82 /* libz.tbd in Frameworks */,
+				AA4CCFEF1D2D28D8001E5C82 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +144,26 @@
 			children = (
 				AA4CCFCD1D28B1AC001E5C82 /* NSString+LBCoreKit.h */,
 				AA4CCFCE1D28B1AC001E5C82 /* NSString+LBCoreKit.m */,
+				AA4CCFEA1D2D27B4001E5C82 /* NSArray+LBCoreKit.h */,
+				AA4CCFEB1D2D27B4001E5C82 /* NSArray+LBCoreKit.m */,
+				AA4CCFF01D2D2932001E5C82 /* NSBundle+LBCoreKit.h */,
+				AA4CCFF11D2D2932001E5C82 /* NSBundle+LBCoreKit.m */,
+				AA4CCFF41D2D298D001E5C82 /* NSData+LBCoreKit.h */,
+				AA4CCFF51D2D298D001E5C82 /* NSData+LBCoreKit.m */,
+				AA4CCFFA1D2D2A4E001E5C82 /* NSDate+LBCoreKit.h */,
+				AA4CCFFB1D2D2A4E001E5C82 /* NSDate+LBCoreKit.m */,
+				AA4CCFFE1D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.h */,
+				AA4CCFFF1D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.m */,
+				AA4CD0021D2D2B70001E5C82 /* NSFileManager+LBCoreKit.h */,
+				AA4CD0031D2D2B70001E5C82 /* NSFileManager+LBCoreKit.m */,
+				AA4CD0061D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.h */,
+				AA4CD0071D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.m */,
+				AA4CD00A1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.h */,
+				AA4CD00B1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.m */,
+				AA4CD00E1D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.h */,
+				AA4CD00F1D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.m */,
+				AA4CD0121D2D2D49001E5C82 /* NSObject+LBCoreKit.h */,
+				AA4CD0131D2D2D49001E5C82 /* NSObject+LBCoreKit.m */,
 			);
 			path = LBCoreFoundation;
 			sourceTree = "<group>";
@@ -134,6 +200,8 @@
 		CBD8B6291D26463600CB0E9B = {
 			isa = PBXGroup;
 			children = (
+				AA4CCFF81D2D2A2E001E5C82 /* libz.tbd */,
+				AA4CCFEE1D2D28D8001E5C82 /* CoreGraphics.framework */,
 				CBD8B6351D26463600CB0E9B /* LBCoreKit */,
 				CBD8B6411D26463600CB0E9B /* LBCoreKitTests */,
 				CBD8B6341D26463600CB0E9B /* Products */,
@@ -186,17 +254,27 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4CCFFC1D2D2A4E001E5C82 /* NSDate+LBCoreKit.h in Headers */,
 				AA4CCFCF1D28B1AC001E5C82 /* NSString+LBCoreKit.h in Headers */,
 				AA4CCFE41D28C2AA001E5C82 /* LBCDownLoadModel.h in Headers */,
 				AA4CCFE11D28B433001E5C82 /* UtilsMacro.h in Headers */,
 				AA4CCFDE1D28B433001E5C82 /* ACMacros.h in Headers */,
+				AA4CD0141D2D2D49001E5C82 /* NSObject+LBCoreKit.h in Headers */,
+				AA4CD0101D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.h in Headers */,
 				AA4CCFC81D28AD46001E5C82 /* LBCDownLoad.h in Headers */,
 				AA4CCFD61D28B30E001E5C82 /* GTMBase64.h in Headers */,
+				AA4CCFF21D2D2932001E5C82 /* NSBundle+LBCoreKit.h in Headers */,
 				CBD8B6371D26463600CB0E9B /* LBCoreKit.h in Headers */,
+				AA4CD0041D2D2B70001E5C82 /* NSFileManager+LBCoreKit.h in Headers */,
+				AA4CD00C1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.h in Headers */,
+				AA4CD0081D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.h in Headers */,
 				AA4CCFD81D28B30E001E5C82 /* GTMDefines.h in Headers */,
 				AA4CCFDF1D28B433001E5C82 /* IIDlog.h in Headers */,
 				AA4CCFE01D28B433001E5C82 /* ToolView.h in Headers */,
+				AA4CCFF61D2D298D001E5C82 /* NSData+LBCoreKit.h in Headers */,
 				AA4CCFCA1D28AD46001E5C82 /* LBCDownLoadManager.h in Headers */,
+				AA4CCFEC1D2D27B4001E5C82 /* NSArray+LBCoreKit.h in Headers */,
+				AA4CD0001D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +374,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4CD0011D2D2AB7001E5C82 /* NSDictionary+LBCoreKit.m in Sources */,
 				AA4CCFC91D28AD46001E5C82 /* LBCDownLoad.m in Sources */,
+				AA4CD0111D2D2D0C001E5C82 /* NSMutableString+LBCoreKit.m in Sources */,
 				AA4CCFCB1D28AD46001E5C82 /* LBCDownLoadManager.m in Sources */,
+				AA4CCFF71D2D298D001E5C82 /* NSData+LBCoreKit.m in Sources */,
+				AA4CCFED1D2D27B4001E5C82 /* NSArray+LBCoreKit.m in Sources */,
+				AA4CD0091D2D2BDD001E5C82 /* NSMutableArray+LBCoreKit.m in Sources */,
 				AA4CCFD01D28B1AC001E5C82 /* NSString+LBCoreKit.m in Sources */,
+				AA4CD0051D2D2B70001E5C82 /* NSFileManager+LBCoreKit.m in Sources */,
+				AA4CD0151D2D2D49001E5C82 /* NSObject+LBCoreKit.m in Sources */,
 				AA4CCFE51D28C2AA001E5C82 /* LBCDownLoadModel.m in Sources */,
+				AA4CCFF31D2D2932001E5C82 /* NSBundle+LBCoreKit.m in Sources */,
+				AA4CD00D1D2D2CA4001E5C82 /* NSMutableDictionary+LBCoreKit.m in Sources */,
+				AA4CCFFD1D2D2A4E001E5C82 /* NSDate+LBCoreKit.m in Sources */,
 				AA4CCFD71D28B30E001E5C82 /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
